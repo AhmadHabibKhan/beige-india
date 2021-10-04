@@ -1,0 +1,57 @@
+<%- include("./partials/header") %>
+<link rel="stylesheet" href="/css/home.css">
+</head>
+<body>
+<%- include("./partials/nav") %>
+  <div class="container-fluid p-0">
+  
+
+        <section class="vid" >
+          <!-- <iframe src="https://drive.google.com/file/d/1GO8OMkGsAgXsQolWB8l1t1Hx-15cGidt/preview"  height="100%" allow="autoplay"></iframe> -->
+          <!-- <iframe src="https://www.youtube.com/embed/LePRhT8o_Go?autoplay=1" allow="autoplay"  height="100%" ></iframe> -->
+          <!-- <iframe id="frame" src="https://www.youtube.com/embed/LePRhT8o_Go?autoplay=1&mute=1&showinfo=0&controls=0&rel=0&loop=1" frameborder=0 allowfullscreen style="height: 100vh;" width="100%" height="100vh" allow="autoplay; modestbranding;"></iframe> -->
+          <video id="myVideo" class="w-100" loop autoplay muted>
+            <source src="/imgs/myvid.mp4" type="video/mp4">
+          </video>    
+        </section>
+
+          <div class="card" style="background-color: rgb(237, 196, 179);">
+            <div class="row g-0 justify-content-md-center" style="background-color: rgb(237, 196, 179);">
+              <div class="c col-lg-5 col-md-12">
+                <img src="/imgs/image.png" class="img-fluid rounded-start p-3" alt="...">
+              </div>
+              <div class="c col-lg-5 col-md-12">
+                <div class="card-body">
+                  <h5 class="card-title mb-2">New Arrivals</h5>
+                  <p class="card-text">Discover the new collection in a panoply of surface, texture and textile.</p>
+                  <p class="card-text mt-2"><a href="https://google.com">FOR HIM</a> | <a href="#">FOR HER</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <section id="sfirst" class="row gy-5 mt-auto justify-content-md-center">
+          <div class="col-lg-5 col-md-12">
+            <figure >
+              <img src="/imgs/forhim.png" alt="Elephant at sunset" class="img-fluid rounded-start" alt="...">
+              <figcaption class="pt-5"><a href="#">FOR HIM</a></figcaption>
+            </figure>          
+            <!-- <img src="/imgs/forher.png" class="img-fluid rounded-start" height="500px" alt="..."> -->
+          </div>
+          <div class="col-lg-5 col-md-12">
+            <figure >
+              <img src="/imgs/forher.png" alt="Elephant at sunset" class="img-fluid rounded-start" alt="...">
+              <figcaption class="py-5"><a href="#">FOR HER</a></figcaption>
+            </figure>
+            <!-- <img src="/imgs/forhim.png" class="img-fluid rounded-start" height="500px" alt="..."> -->
+          </div>
+        </section>
+
+        <section>
+          <img src="/imgs/dog.jpg" alt="Elephant at sunset" class="img-fluid rounded-start" alt="...">
+        </section>
+  
+  </div>
+
+
+<%- include("./partials/footer") %>
